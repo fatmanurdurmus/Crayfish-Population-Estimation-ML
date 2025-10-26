@@ -131,3 +131,15 @@ Therefore, some lines such as `!pip install` and `google.colab.files.upload()` a
 If you want to run it locally:
 - Remove or comment out these lines.  
 - Install the required libraries using: `pip install -r requirements.txt`
+
+---
+
+## 📸 Example Outputs
+
+| Visualization | Description |
+|----------------|-------------|
+| ![Metrics](outputs/model_scores.png) | Model performance (R² Scores for each algorithm) |
+| ![Predictions](outputs/prediction_comparison.png) | Actual vs Predicted TA values (Random Forest example) |
+| ![Feature Importance](outputs/feature_importance.png) | Variable importance ranking in Linear Regression |
+| ![Population Chart](outputs/population_prediction_chart.png) | Monthly crayfish population simulation (Total, Female, Male, Harvestable) |
+
